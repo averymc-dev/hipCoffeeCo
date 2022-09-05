@@ -14,8 +14,8 @@ require('dotenv').config({path: './config/.env'})
 
 // From slides ?? what is this? where does it go?
 // let db,
-//     dbConnectionStr = 'mongodb+srv://user:pword@cluster0.o3e2szn.mongodb.net/?retryWrites=true&w=majority',
-//     dbName = 'Hip Coffee Co.'
+//     dbConnectionStr = '',
+//     dbName = 'HCC'
 // MongoClient.connect(dbConnectionStr, { useUnifiedTopology: true })
 //     .then(client => {
 //         console.log(`Connected to ${dbName} Database`)
