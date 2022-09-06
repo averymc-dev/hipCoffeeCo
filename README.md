@@ -10,23 +10,16 @@ Ordering interface for Hip Coffee Company, where team members can sign in and pl
 
 **Tech used:** HTML, CSS, JavaScript, Node.js, Express, MongoDB
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
-This project was built using MVC as a guideline for adding items to a 'basket'
+This project was built for a 'coming near you' coffee shop. It is built using MERN stack, with Passport providing the authentication, and hosted by Heroku. Accounts can be created for new team members, which allows their name to be attached to orders they place. Orders are put in to a 'basket' before the total is verified and sent to the barista.
 
 ## Optimizations
-*(optional)*
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+- Making the site responsive to smaller screens
+- Decreasing load times
+- Add customers name to order
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
-
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
-
-**Palettable:** https://github.com/alecortega/palettable
-
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel
+- Emphasis placed on correct paths for CSS in HTML using EJS
+- Locating and using flavico browser tab icon
+- Authentication with Passport
