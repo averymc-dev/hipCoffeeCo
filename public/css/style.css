@@ -59,7 +59,7 @@ body::after {
 .login-card button {
     text-transform: uppercase;
     outline: 0;
-    background: #0CC2A0;
+    background: linear-gradient(135deg, #258c83 30%, #0CC2A0 70%, #41bca5);
     width: 45%;
     border: 0;
     padding: 15px;
