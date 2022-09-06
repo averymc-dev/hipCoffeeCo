@@ -33,7 +33,7 @@ body::after {
   padding: 40px;
   width: 274px;
   background-color: #F7F7F7;
-  margin: 0 auto 10px;
+  margin: 15em auto 10px;
   border-radius: 2px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
   overflow: hidden;
@@ -41,17 +41,17 @@ body::after {
 
 .login-card a {
   text-decoration: none;
-  color: #666;
+  color: #000;
   font-weight: 400;
   text-align: center;
   display: inline-block;
-  opacity: 0.6;
-  transition: opacity ease 0.5s;
+  opacity: 1;
+  transition: color ease 0.3s;
 }
 
-.login-card a:hover {
-  opacity: 1;
-}
+/* .login-card a:hover {
+  color: white;
+} */
 
 .login-help {
   width: 100%;
@@ -59,8 +59,31 @@ body::after {
   font-size: 12px;
 }
 
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
 
+.login-card button {
+    text-transform: uppercase;
+    outline: 0;
+    background: #0CC2A0;
+    width: 45%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
+.button:hover{
+    color:white;
+    border: 2px solid red;
+}
 
 
 

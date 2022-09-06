@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+// const MongoClient = require('mongodb').MongoClient
 const mongoose = require('mongoose')
 const passport = require('passport')
 const session = require('express-session')
@@ -13,15 +14,15 @@ const todoRoutes = require('./routes/todos')
 require('dotenv').config({path: './config/.env'})
 
 // From slides ?? what is this? where does it go?
-let db,
-    dbConnectionStr = process.env.DB_STRING,
-    dbName = 'HCC'
-    
-MongoClient.connect(dbConnectionStr, { useUnifiedTopology: true })
-    .then(client => {
-        console.log(`Connected to ${dbName} Database`)
-        db = client.db(dbName)
-    })
+// let db,
+//     dbConnectionStr = process.env.DB_STRING,
+//     dbName = 'HCC'
+
+// MongoClient.connect(dbConnectionStr, { useUnifiedTopology: true })
+//     .then(client => {
+//         console.log(`Connected to ${dbName} Database`)
+//         db = client.db(dbName)
+//     })
 //
 
 // Passport config
