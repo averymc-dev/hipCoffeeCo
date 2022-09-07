@@ -2,7 +2,7 @@
 
 Ordering interface for Hip Coffee Company, where team members can sign in and place orders for baristas.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** In progress
 
 ![screenshot](/public/assets/screenshot.png)
 
