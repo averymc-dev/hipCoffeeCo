@@ -4,7 +4,7 @@ Ordering interface for Hip Coffee Company, where team members can sign in and pl
 
 **Link to project:** http://recruiters-love-seeing-live-demos.com/
 
-![alt tag](/public/assets/screenshot.png)
+![screenshot](/public/assets/screenshot.png)
 
 ## How It's Made:
 
