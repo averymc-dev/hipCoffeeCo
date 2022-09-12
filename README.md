@@ -16,10 +16,4 @@ This project was built for a 'coming near you' coffee shop. It is built using ME
 
 - Making the site responsive to smaller screens
 - Decreasing load times
-- Add customers name to order
-
-## Lessons Learned:
-
-- Emphasis placed on correct paths for CSS in HTML using EJS
-- Locating and using flavico browser tab icon
-- Authentication with Passport
+- Attach users name to order
