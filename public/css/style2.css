@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100);
+@import url('https://fonts.googleapis.com/css2?family=Manuale:wght@400;500&display=swap');
+
+
+body::after {
+    background: url(/assets/joshua-rodriguez-f7zm5TDOi4g-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    content: "";
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;   
+}
+
+h1{
+    margin-top: 0;
+}
+
+.login-card {
+    padding: 40px;
+    width: 274px;
+    background-color: #F7F7F7;
+    margin: 15em auto 10px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+
+.login-card h1 {
+    font-weight: 100;
+    text-align: center;
+    font-size: 2.3em;
+    font-family: 'Manuale';
+  }
+
+  .login-card input[type=submit] {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .login-card input[type=text], input[type=password], input[type=email]{
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    /* border-radius: 2px; */
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  
+  
+  .login {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Manuale', sans-serif;
+    font-weight: 700;
+    height: 40px;
+    padding: 0 8px;
+  /* border-radius: 3px; */
+  /* -webkit-user-select: none;
+    user-select: none; */
+  }
+  
+  .login-submit {
+    /* border: 1px solid #3079ed; */
+    border: 0px;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1); 
+    background: linear-gradient(135deg, #258c83 30%, #0CC2A0 70%, #41bca5);
+    /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+  }
+  
+input, input::placeholder {
+  font-family: 'Manuale';
+}
+
+#title-image {
+  margin-bottom: 15%;
+}
