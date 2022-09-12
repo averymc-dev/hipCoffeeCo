@@ -1,11 +1,3 @@
-h1{
-    color: red;
-}
-
-#title-image {
-    width: 100%;
-}
-
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100);
 @import url('https://fonts.googleapis.com/css2?family=Manuale:wght@400;500&display=swap');
 
@@ -44,12 +36,6 @@ body::after {
   font-family: 'Manuale'
 }
 
-.login-help {
-  width: 100%;
-  text-align: center;
-  font-size: 12px;
-}
-
 .login-options {
     display: flex;
     justify-content: space-between;
@@ -69,6 +55,10 @@ body::after {
     transition: all 0.3 ease;
     cursor: pointer;
     border-radius: 5px;
+}
+
+#title-image {
+  width: 100%;
 }
 
 
